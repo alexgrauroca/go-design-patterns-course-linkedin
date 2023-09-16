@@ -1,11 +1,12 @@
 # go-design-patterns-course-linkedin
 
-Go Design Patterns course, by LinkedIn Learning
+Go Design Patterns course, by LinkedIn Learning.
 
 - [go-design-patterns-course-linkedin](#go-design-patterns-course-linkedin)
   - [Deisgn Pattern Categories](#deisgn-pattern-categories)
   - [Creational Pattern](#creational-pattern)
     - [Builder](#builder)
+    - [Factory](#factory)
 
 ## Deisgn Pattern Categories
 
@@ -44,3 +45,10 @@ Go Design Patterns course, by LinkedIn Learning
 - **Director**.
 - **Builder**.
 - **Complex Object**.
+
+### Factory
+
+- **Creator Interface**.
+- **Concrete Creator**.
+- **Product**.
+- **Concrete Product**.
