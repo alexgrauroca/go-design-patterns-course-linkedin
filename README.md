@@ -7,6 +7,7 @@ Go Design Patterns course, by LinkedIn Learning.
   - [Creational Pattern](#creational-pattern)
     - [Builder](#builder)
     - [Factory](#factory)
+    - [Singleton](#singleton)
 
 ## Deisgn Pattern Categories
 
@@ -42,13 +43,23 @@ Go Design Patterns course, by LinkedIn Learning.
 
 ### Builder
 
+Simplifies the creation of complex objects that have many possible representations.
+
 - **Director**.
 - **Builder**.
 - **Complex Object**.
 
 ### Factory
 
+Makes it easier to create objects without having to know the exact class or type of the objects that will be created.
+
 - **Creator Interface**.
 - **Concrete Creator**.
 - **Product**.
 - **Concrete Product**.
+
+### Singleton
+
+Ensures that only one instance of a given class or type definition can be instatiated at any one time.
+
+- **Singleton**.
