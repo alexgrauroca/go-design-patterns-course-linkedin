@@ -10,6 +10,7 @@ Go Design Patterns course, by LinkedIn Learning.
     - [Singleton](#singleton)
   - [Structural Pattern](#structural-pattern)
     - [Adapter](#adapter)
+    - [Facade](#facade)
 
 ## Deisgn Pattern Categories
 
@@ -76,3 +77,17 @@ Allows the interface of an existing subsystem or API to be used as another inter
 - **ExpectedInterface**.
 - **OriginalClass**.
 - **Adapter**.
+
+### Facade
+
+Provide a simple, front-facing interface to a more complex system, library, or API.
+
+- **Subsystem**:
+  - **Client A**.
+  - **Client B**.
+  - **Client C**.
+- **Client 1**.
+- **Client 2**.
+- **Facade**:
+  - **simpleAPI1**.
+  - **simpleAPI2**.
