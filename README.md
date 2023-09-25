@@ -1,8 +1,8 @@
-# go-design-patterns-course-linkedin
+# Go Design Patterns
 
 Go Design Patterns course, by LinkedIn Learning.
 
-- [go-design-patterns-course-linkedin](#go-design-patterns-course-linkedin)
+- [Go Design Patterns](#go-design-patterns)
   - [Deisgn Pattern Categories](#deisgn-pattern-categories)
   - [Creational Pattern](#creational-pattern)
     - [Builder](#builder)
@@ -11,6 +11,8 @@ Go Design Patterns course, by LinkedIn Learning.
   - [Structural Pattern](#structural-pattern)
     - [Adapter](#adapter)
     - [Facade](#facade)
+  - [Behavioral Pattern](#behavioral-pattern)
+    - [Observer](#observer)
 
 ## Deisgn Pattern Categories
 
@@ -91,3 +93,14 @@ Provide a simple, front-facing interface to a more complex system, library, or A
 - **Facade**:
   - **simpleAPI1**.
   - **simpleAPI2**.
+
+## Behavioral Pattern
+
+### Observer
+
+Provides the ability for a subject to notify a set of "observers" about changes to the subject.
+
+- **Subject**.
+  - **List of observers**.
+- **Observer**.
+- **Concrete Observers**.
