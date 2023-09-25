@@ -8,6 +8,8 @@ Go Design Patterns course, by LinkedIn Learning.
     - [Builder](#builder)
     - [Factory](#factory)
     - [Singleton](#singleton)
+  - [Structural Pattern](#structural-pattern)
+    - [Adapter](#adapter)
 
 ## Deisgn Pattern Categories
 
@@ -63,3 +65,14 @@ Makes it easier to create objects without having to know the exact class or type
 Ensures that only one instance of a given class or type definition can be instatiated at any one time.
 
 - **Singleton**.
+
+## Structural Pattern
+
+### Adapter
+
+Allows the interface of an existing subsystem or API to be used as another interface without modifying the code of the existing API.
+
+- **Client**.
+- **ExpectedInterface**.
+- **OriginalClass**.
+- **Adapter**.
